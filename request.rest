@@ -1,0 +1,16 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/
+6308dea0853530a491d47ba1
+
+###
+POST http://localhost:5000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "nama" :"Tonet",
+    "Gender" :"laki-laki",
+    "alamat" :"jln Rengkom"
+     
+}
